@@ -1,19 +1,19 @@
-package com.medialink.dagger2;
+package com.medialink.dagger2.car;
 
 import android.util.Log;
 
 import javax.inject.Inject;
 
-public class DiselEngine implements Engine {
+public class PetrolEngine implements Engine {
 
     private static final String TAG = "Car";
 
     @Inject
-    public DiselEngine() {
+    public PetrolEngine() {
     }
 
     @Override
     public void start() {
-        Log.d(TAG, "hidupin mesin disel");
+        Log.d(TAG, "hidupin mesin bensin");
     }
 }

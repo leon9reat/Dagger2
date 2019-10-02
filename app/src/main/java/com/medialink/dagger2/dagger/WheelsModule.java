@@ -1,4 +1,8 @@
-package com.medialink.dagger2;
+package com.medialink.dagger2.dagger;
+
+import com.medialink.dagger2.car.Rims;
+import com.medialink.dagger2.car.Tires;
+import com.medialink.dagger2.car.Wheels;
 
 import dagger.Module;
 import dagger.Provides;

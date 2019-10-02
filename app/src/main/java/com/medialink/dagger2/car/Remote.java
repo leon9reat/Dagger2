@@ -1,10 +1,12 @@
-package com.medialink.dagger2;
+package com.medialink.dagger2.car;
 
 import android.util.Log;
 
+import com.medialink.dagger2.car.Car;
+
 import javax.inject.Inject;
 
-class Remote {
+public class Remote {
     private static final String TAG = "Car";
 
     @Inject

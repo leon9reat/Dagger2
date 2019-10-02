@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.medialink.dagger2.car.Car;
+
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {

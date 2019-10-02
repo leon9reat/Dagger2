@@ -1,8 +1,8 @@
-package com.medialink.dagger2;
+package com.medialink.dagger2.car;
 
 import android.util.Log;
 
-class Tires {
+public class Tires {
     private static final String TAG = "Car";
 
     public Tires() {
